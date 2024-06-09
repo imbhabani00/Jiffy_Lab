@@ -13,8 +13,8 @@ const Header = ({ toggleDarkMode, isDarkMode }) => {
   const [profileDropdownOpen, setProfileDropdownOpen] = useState(false);
 
   const blockchainOptions = ['Design', 'Frontend', 'Backend', 'Blockchain', 'Content'];
-  const developersOptions = ['Option 1', 'Option 2', 'Option 3'];
-  const moreOptions = ['Option 1', 'Option 2', 'Option 3'];
+  const developersOptions = ['Bhabani', 'Shakti', 'Leeza'];
+  const moreOptions = ['Simran', 'Trupti', 'Nikita'];
 
   return (
     <header className={`flex flex-wrap justify-between items-center p-4 shadow ${isDarkMode ? 'bg-black text-white' : 'bg-white text-black'}`}>
